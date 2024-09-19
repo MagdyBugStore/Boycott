@@ -12,7 +12,7 @@ const statusStyles = {
 const ProductCard = ({ data }) => {
     const [moreDetails, setMoreDetails] = useState(false);
 
-    const status = statusStyles[data.status] || { color: 'bg-gray-500', textColor: 'text-gray-500', text: 'Unknown' };
+    const status = statusStyles[data.status] || statusStyles[4];
 
     return (
         <div className="relative border p-3 rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out aspect-square group">

@@ -31,7 +31,7 @@ const App = () => {
     <div className='flex flex-col min-h-screen bg-gray-100 py-6 sm:py-12'>
       <div className='relative py-3 sm:mx-auto container'>
         <div className={filteredList.length > 0 ?'': 'w-min mx-auto my-auto'}>
-          <div className='relative bg-white px-4 py-10 shadow-lg sm:rounded-3xl sm:p-20 '>
+          <div className='relative bg-white px-4 py-10 shadow-lg rounded-xl sm:rounded-3xl sm:p-20 '>
             <div className='mx-auto'>
               {/* Search input */}
               <div className='mb-6 flex justify-center'>
