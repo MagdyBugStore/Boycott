@@ -18,8 +18,8 @@
     "build": "vite build",
     "dev": "vite",
     "inline": "INLINE=true vite build",
-    "preview": "vite preview",
-    "start": "vite"
+    "preview": "vite preview --port $PORT",
+    "start": "vite --port $PORT"
   },
   "browserslist": {
     "production": [
